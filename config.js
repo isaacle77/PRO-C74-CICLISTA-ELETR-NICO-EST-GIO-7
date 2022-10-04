@@ -2,13 +2,13 @@ import firebase from "firebase";
 require("@firebase/firestore");
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCZrG0BF6LrnRpWZjsPQxNGyMCLByo8HrM",
-  authDomain: "e-ride-549e4.firebaseapp.com",
-  projectId: "e-ride-549e4",
-  storageBucket: "e-ride-549e4.appspot.com",
-  messagingSenderId: "588298110700",
-  appId: "1:588298110700:web:34e3df331c6b1fc95047c9",
-  measurementId: "G-G3K7BWL5LH"
+   apiKey: "AIzaSyADumbLIsXZMUQvB2Ytsv5u56E8sb_IXUU",
+  authDomain: "pro-71-bicicleta.firebaseapp.com",
+  databaseURL: "https://pro-71-bicicleta-default-rtdb.firebaseio.com",
+  projectId: "pro-71-bicicleta",
+  storageBucket: "pro-71-bicicleta.appspot.com",
+  messagingSenderId: "375702355936",
+  appId: "1:375702355936:web:86c0adf69165490ee77585"
 };
 
 firebase.initializeApp(firebaseConfig);
